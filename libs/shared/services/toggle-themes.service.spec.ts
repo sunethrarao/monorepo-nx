@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ToggleThemeService } from './toggle-theme.service';
+import { ToggleThemesService } from './toggle-themes.service';
 
-describe('ToggleThemeService', () => {
-  let service: ToggleThemeService;
+describe('ToggleThemesService', () => {
+  let service: ToggleThemesService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ToggleThemeService);
+    service = TestBed.inject(ToggleThemesService);
   });
 
   it('should be created', () => {
