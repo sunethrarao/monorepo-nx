@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@gallery-workspace/gallery-admin": ["libs/gallery-admin/src/index.ts"],
+      "@gallery-workspace/libs": ["gallery/gallery-admin/src/index.ts"],
+      "@gallery-workspace/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@gallery-workspace/theme-toggle": ["libs/theme-toggle/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
