@@ -19,7 +19,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/theme/public"
+            "input": "apps/theme/public",
+            "output": "theme/public"
           }
         ],
         "styles": ["apps/theme/src/styles.scss"],
