@@ -17,7 +17,8 @@
         "tsConfig": "apps/gallery/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          {
+          "./libs/shared/assets/images/*.{jpg,png,gif}",
+                {
             "glob": "**/*",
             "input": "apps/gallery/public",
             "output": "gallery/public"

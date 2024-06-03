@@ -6,7 +6,7 @@ import { GalleryService } from 'libs/shared/services/gallery.service'
 
 @Component({
   selector: 'lib-gallery-admin',
-  standalone: false,
+  standalone: true,
   templateUrl: './gallery-admin.component.html',
   styleUrl: './gallery-admin.component.scss',
   providers: [GalleryService],

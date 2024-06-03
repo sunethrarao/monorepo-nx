@@ -5,13 +5,15 @@ import { CommonModule } from '@angular/common';
 import { GalleryAdminComponent } from './gallery-admin.component';
 // import { SharedModule } from '@gallery-workspace/libs/shared/shared.module';
 import { GalleryService } from 'libs/shared/services/gallery.service'
+import { HttpClientModule } from '@angular/common/http'; 
 
 @NgModule({
   declarations: [GalleryAdminComponent],
   imports: [
     CommonModule,
     // BrowserModule, 
-    GalleryService
+    GalleryService,
+    HttpClientModule
   ],
   providers: [GalleryService],
   exports: [GalleryAdminComponent],
