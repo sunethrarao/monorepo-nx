@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+// import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'lib-gallery-admin',
-  standalone: true,
-  imports: [CommonModule],
+  standalone: false,
   templateUrl: './gallery-admin.component.html',
-  styleUrl: './gallery-admin.component.css',
+  styleUrl: './gallery-admin.component.scss'
 })
 export class GalleryAdminComponent {}

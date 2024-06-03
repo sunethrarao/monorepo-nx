@@ -1,0 +1,122 @@
+{
+  "countries": [
+    {
+      "name": "USA",
+      "states": [
+        {
+          "name": "California",
+          "locations": [
+            {
+              "name": "San Francisco",
+              "photos": [
+                {
+                  "url": "https://example.com/photos/san-francisco/photo1.jpg",
+                  "description": "Golden Gate Bridge"
+                },
+                {
+                  "url": "https://example.com/photos/san-francisco/photo2.jpg",
+                  "description": "Alcatraz Island"
+                }
+              ]
+            },
+            {
+              "name": "Los Angeles",
+              "photos": [
+                {
+                  "url": "https://example.com/photos/los-angeles/photo1.jpg",
+                  "description": "Hollywood Sign"
+                },
+                {
+                  "url": "https://example.com/photos/los-angeles/photo2.jpg",
+                  "description": "Santa Monica Pier"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New York",
+          "locations": [
+            {
+              "name": "New York City",
+              "photos": [
+                {
+                  "url": "https://example.com/photos/new-york-city/photo1.jpg",
+                  "description": "Statue of Liberty"
+                },
+                {
+                  "url": "https://example.com/photos/new-york-city/photo2.jpg",
+                  "description": "Times Square"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "states": [
+        {
+          "name": "Île-de-France",
+          "locations": [
+            {
+              "name": "Paris",
+              "photos": [
+                {
+                  "url": "https://example.com/photos/paris/photo1.jpg",
+                  "description": "Eiffel Tower"
+                },
+                {
+                  "url": "https://example.com/photos/paris/photo2.jpg",
+                  "description": "Louvre Museum"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "states": [
+        {
+          "name": "Tokyo",
+          "locations": [
+            {
+              "name": "Tokyo",
+              "photos": [
+                {
+                  "url": "https://example.com/photos/tokyo/photo1.jpg",
+                  "description": "Tokyo Tower"
+                },
+                {
+                  "url": "https://example.com/photos/tokyo/photo2.jpg",
+                  "description": "Shibuya Crossing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kyoto",
+          "locations": [
+            {
+              "name": "Kyoto",
+              "photos": [
+                {
+                  "url": "https://example.com/photos/kyoto/photo1.jpg",
+                  "description": "Fushimi Inari Shrine"
+                },
+                {
+                  "url": "https://example.com/photos/kyoto/photo2.jpg",
+                  "description": "Kinkaku-ji (Golden Pavilion)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
