@@ -14,5 +14,5 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppComponent {
-  title = 'gallery';
+  title = 'Gallery';
 }

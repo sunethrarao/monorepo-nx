@@ -1,57 +1,48 @@
 <p>gallery admin works!</p>
-<p>{{countries}}</p>
+
+
+<!-- <div class="container row">
+  
+  <div class="countries-name" *ngFor="let country of countries; let i = index">
+    <p>{{ country.name }}</p>
+    <div *ngFor="let state of country.states; let j = index">
+      <h3>{{ state.name }}</h3>
+      <ul>
+        <li *ngFor="let location of state.locations; let k = index">
+          <h4>{{ location.name }}</h4>
+          <ul>
+            <li *ngFor="let photo of location.photos; let l = index">
+              <img src="{{ photo.url }}" alt="{{ photo.description }}">
+              <p>{{ photo.description }}</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div> -->
 
 Image gallery here
 
-<!-- <img src="libs/shared/assets/images/angularNX.png"> -->
 
 
 <div class="container">
-  <div class="row">
-    <div class="col-3">
-      <div class="card">
-        <img src="/libs/shared/assets/images/angularNX.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="row mt-2 m-3 p-2 d-flex">
+    <ng-container *ngFor="let country of countries; let i = index">
+      <ng-container *ngFor="let state of country.states; let j = index">
+        <div class="col-sm-12 col-md-2 col-lg-4 col-xl-3" *ngFor="let location of state.locations; let k = index">
+          <div class="card" *ngFor="let photo of location.photos; let l = index">
+            <img src="{{ photo.url }}" class="card-img-top" alt="{{photo.description}}">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-2 col-lg-4 col-xl-3">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-3 col-lg-4 col-xl-3">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-2 col-lg-4 col-xl-3">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
+      </ng-container>
+    </ng-container>
 
-    
-   
   </div>
 </div>
-
-

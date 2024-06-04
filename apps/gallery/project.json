@@ -4,27 +4,35 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "apps/gallery/src",
-  "tags": [],
+  "tags": [   
+  ],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/gallery",
         "index": "apps/gallery/src/index.html",
         "browser": "apps/gallery/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/gallery/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
+        "aot": true,
         "assets": [
-          "/libs/shared/assets/images/*.{jpg,png,gif}",
+          
                 {
             "glob": "**/*",
             "input": "apps/gallery/public",
             "output": "gallery/public"
           }
         ],
-        "styles": ["apps/gallery/src/styles.scss"],
+        "styles": [
+          "apps/gallery/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -74,7 +82,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/gallery/jest.config.ts"
       }

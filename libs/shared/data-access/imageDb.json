@@ -10,11 +10,11 @@
               "name": "San Francisco",
               "photos": [
                 {
-                  "url": "https://example.com/photos/san-francisco/photo1.jpg",
-                  "description": "Golden Gate Bridge"
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX.png",
+                  "description": "angularNX.png"
                 },
                 {
-                  "url": "https://example.com/photos/san-francisco/photo2.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX2.png",
                   "description": "Alcatraz Island"
                 }
               ]
@@ -23,11 +23,11 @@
               "name": "Los Angeles",
               "photos": [
                 {
-                  "url": "https://example.com/photos/los-angeles/photo1.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX3.png",
                   "description": "Hollywood Sign"
                 },
                 {
-                  "url": "https://example.com/photos/los-angeles/photo2.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX4.png",
                   "description": "Santa Monica Pier"
                 }
               ]
@@ -41,11 +41,11 @@
               "name": "New York City",
               "photos": [
                 {
-                  "url": "https://example.com/photos/new-york-city/photo1.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX.png",
                   "description": "Statue of Liberty"
                 },
                 {
-                  "url": "https://example.com/photos/new-york-city/photo2.jpg",
+                 "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX1.png",
                   "description": "Times Square"
                 }
               ]
@@ -64,11 +64,11 @@
               "name": "Paris",
               "photos": [
                 {
-                  "url": "https://example.com/photos/paris/photo1.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX2.png",
                   "description": "Eiffel Tower"
                 },
                 {
-                  "url": "https://example.com/photos/paris/photo2.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX3.png",
                   "description": "Louvre Museum"
                 }
               ]
@@ -87,11 +87,11 @@
               "name": "Tokyo",
               "photos": [
                 {
-                  "url": "https://example.com/photos/tokyo/photo1.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX.png",
                   "description": "Tokyo Tower"
                 },
                 {
-                  "url": "https://example.com/photos/tokyo/photo2.jpg",
+                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX2.png",
                   "description": "Shibuya Crossing"
                 }
               ]
@@ -105,11 +105,11 @@
               "name": "Kyoto",
               "photos": [
                 {
-                  "url": "https://example.com/photos/kyoto/photo1.jpg",
+                                 "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX.png",
                   "description": "Fushimi Inari Shrine"
                 },
                 {
-                  "url": "https://example.com/photos/kyoto/photo2.jpg",
+                                  "url": "https://raw.githubusercontent.com/sunethrarao/monorepo-nx/main/libs/shared/assets/images/angularNX2.png",
                   "description": "Kinkaku-ji (Golden Pavilion)"
                 }
               ]
